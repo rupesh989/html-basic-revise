@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromstopic</title>
+</head>
+
+<body>
+    <h1>Forms, Labels and Other topics </h1>
+    <form action="/action.js">
+        <!-- this action checks what are we getting from forms and use this information  -->
+
+        <input type="text" placeholder="type something here">
+        <input type="password" placeholder="enter your password here">
+
+        <!-- Radio and value topic -->
+        <input type="radio" value="react" name="skill">React
+        <!-- value and name React should be same for exact execution back-front end not able to see values -->
+        <input type="radio" value="Angular" name="skill">Angular
+        <input type="radio" value="mongodb" name="skill">MongoDB
+
+
+
+        <hr>
+        <p>labels in one can be clicked on name as Well with radio btn</p>
+        <label for="101">
+            <!-- can be clicked on name as Well with radio btn  -->
+            <input type="radio" value="javascript" name="skill" id="101">JavaScript
+
+        </label>
+        <label for="102">
+            <input type="radio" value="expressjs" name="skill" id="102">Expressjs
+        </label>
+        <hr>
+        <p>Checkboxes change input type form radio to checkbox to select multiple options</p>
+        <label for="">
+            <input type="checkbox" value="PUN" name="location" id="202">pune <br>
+            <input type="checkbox" value="BLR" name="location" id="302">Banglore <br>
+            <input type="checkbox" value="MUM" name="location" id="402">Mumbai <br>
+            <input type="checkbox" value="IND" name="location" id="502">Indore
+
+        </label>
+        <p>
+            <select name="" id="">
+                <option value="">5LPA</option>
+                <option value="">4LPA</option>
+
+                <option value="">7LPA</option>
+                <option value="">9LPA</option>
+
+
+            </select>
+        </p>
+        <p><Textarea name="feedback" id="101" rows="5" placeholder="take your time to comment">
+     feedback
+    </Textarea></p>
+        <input type="submit" value="submit">
+
+    </form>
+    <iframe width="460" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=8Rw5eD3atBDXznaN"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
