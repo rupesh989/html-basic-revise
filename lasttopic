@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro html</title>
+</head>
+
+<body>
+    <h1>Last topic of HTML5</h1>
+    <!-- <p>Unordered list</p>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <ul>
+            <li> React </li>
+            <li>Angular</li>
+        </ul>
+        <li>sql</li>
+    </ul>
+    <hr>
+    <p>Ordered list</p>
+
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <ol>
+            <li>React</li>
+            <li>Angular</li>
+        </ol>
+        <li>sql </li>
+    </ol> -->
+    <caption>requirement</caption>
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>skill</th>
+                <th>location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>react</td>
+                <td>pune</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
